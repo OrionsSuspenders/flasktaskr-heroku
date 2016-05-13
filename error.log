@@ -4,3 +4,4 @@
 500 error at 08-05-2016 00:59:$S: http://127.0.0.1:5000/ 
 404 error at 09-05-2016 20:47:$S: http://localhost/this-route-does-not-exist/ 
 404 error at 09-05-2016 20:51:$S: http://0.0.0.0:5000/favicon.ico 
+404 error at 12-05-2016 22:45:$S: http://localhost/this-route-does-not-exist/ 
