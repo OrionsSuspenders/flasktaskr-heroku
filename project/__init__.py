@@ -12,10 +12,12 @@ db = SQLAlchemy(app)
 
 from users.views import users_blueprint
 from tasks.views import tasks_blueprint
+from api.views import api_blueprint
 
 # register our blueprints
 app.register_blueprint(users_blueprint)
 app.register_blueprint(tasks_blueprint)
+app.register_blueprint(api_blueprint)
 
 @app.errorhandler(404)
 def page_not_found(error):

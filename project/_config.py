@@ -7,7 +7,7 @@ basedir = os.path.abspath(os.path.dirname(__file__))
 
 DATABASE = 'flasktaskr.db'
 CSRF_ENABLED = True
-DEBUG = False
+DEBUG = True
 SECRET_KEY = '12c4f03d87f21f 10c254b2dbca8a 1f9ff4a2ce73e1 716cb6d8e73abf 5ec7bb160df49d\
                 c31d096e2ee144 49b26def6e4bb0 57a4abdf94920f 96ccb5b633148a e0a1b9e43f5c31\
                 f7f5c51f4d8541 0a046bb06c653a 8f473153468763 df9815d7c22300 7fdd82f5918279\
